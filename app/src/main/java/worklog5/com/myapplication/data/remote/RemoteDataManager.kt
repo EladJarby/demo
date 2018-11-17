@@ -1,5 +1,5 @@
 package worklog5.com.myapplication.data.remote
 
-class RemoteDataManager {
+import retrofit2.Retrofit
 
-}
+class RemoteDataManager(val api: Api)
